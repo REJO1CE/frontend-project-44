@@ -3,6 +3,9 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
   "name": "@hexlet/code",
   "description": "[![Actions Status](https://github.com/REJO1CE/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/REJO1CE/frontend-project-44/actions)",
   "version": "1.0.0",
