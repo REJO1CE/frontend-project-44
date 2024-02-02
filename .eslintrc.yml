@@ -1,0 +1,19 @@
+extends:
+  - airbnb-base
+
+plugins:
+  - import
+
+rules:
+  # Отключаем правило no-console
+  no-console: off
+
+  # Включаем расширения импорта
+  import/extensions:
+    - error
+    - always
+    - {
+        js: never,
+        json: always,
+        vue: always
+      }
